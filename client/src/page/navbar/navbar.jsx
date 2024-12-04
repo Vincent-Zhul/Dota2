@@ -59,7 +59,7 @@ const Navbar = () => {
 
             <FlexBetween>
                     <div className="SettingLogo">
-                        <img src="http://localhost:3001/assets/commons/setting.png" alt="Setting" height="50%"/>
+                        <img src="https://dota2server.vercel.app/assets/commons/setting.png" alt="Setting" height="50%"/>
                     </div>
 
                     <div className="Dota2Logo" 
@@ -74,7 +74,7 @@ const Navbar = () => {
                             borderRight: BB2,
                             borderLeft: BB2,
                     }}>
-                        <img src="http://localhost:3001/assets/commons/dota2_logo.png" alt="Dota2 Logo" height="75%"/>
+                        <img src="https://dota2server.vercel.app/assets/commons/dota2_logo.png" alt="Dota2 Logo" height="75%"/>
                     </div>
 
                     <div className="NavbarItems">

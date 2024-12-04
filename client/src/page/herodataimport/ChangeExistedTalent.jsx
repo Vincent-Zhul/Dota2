@@ -37,7 +37,7 @@ const ChangeExistedTalent = ({Owner, talent}) => {
         const upload = {...values, 'TalentOwner': Owner};
 
         const serverResponse = await fetch(
-            "http://localhost:3001/talent/insert",
+            "https://dota2server.vercel.app/talent/insert",
             {
                 method: "POST",
                 headers: {"Content-Type" : "application/json"},

@@ -9,7 +9,7 @@ const PostCell = ({ post }) => {
 
     const GetPostImages = async() => {
         const response = await fetch(
-            `http://localhost:3001/post/getPostImages/${post.PostId}`,
+            `https://dota2server.vercel.app/post/getPostImages/${post.PostId}`,
             {
                 method: 'GET'
             }
@@ -24,7 +24,7 @@ const PostCell = ({ post }) => {
 
     const GetPostAuthor = async() => {
         const response = await fetch(
-            `http://localhost:3001/auth/getUserById/${post.AuthorId}`,
+            `https://dota2server.vercel.app/auth/getUserById/${post.AuthorId}`,
             {
                 method: 'GET'
             }
@@ -48,7 +48,7 @@ const PostCell = ({ post }) => {
                 <div className='PostAuthorIcon'>
                     {author && 
                         <img 
-                            src={`http://localhost:3001/assets/user/${author.UserIcon}`}
+                            src={`https://dota2server.vercel.app/assets/user/${author.UserIcon}`}
                             style={{
                                 borderRadius: '50%',
                                 height: '60%'
@@ -77,7 +77,7 @@ const PostCell = ({ post }) => {
                             alignItems: 'center'
                     }}>
                         <img 
-                            src={`http://localhost:3001/assets/posts/${item.FileName}`}
+                            src={`https://dota2server.vercel.app/assets/posts/${item.FileName}`}
                             style={{maxWidth: '8vh', maxHeight: '8vh'}}
                         />
                     </div>

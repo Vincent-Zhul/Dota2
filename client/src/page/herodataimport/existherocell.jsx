@@ -8,7 +8,7 @@ const ExistedHeroCell = ({engName, cnName}) => {
         <Box 
             onClick={() => {navigate(`/importhero?heroName=${engName}`)}}
             sx={{
-                backgroundImage: `url(http://localhost:3001/assets/heros/${engName}_icon.webp)`,
+                backgroundImage: `url(https://dota2server.vercel.app/assets/heros/${engName}_icon.webp)`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 width: '110px',

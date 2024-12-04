@@ -62,7 +62,7 @@ function App() {
 
             <div className='Background'>
               <video autoPlay loop muted className="VideoBackground">
-                <source src="http://localhost:3001/assets/videos/commons/background.webm" type="video/mp4"/>
+                <source src="https://dota2server.vercel.app/assets/videos/commons/background.webm" type="video/mp4"/>
               </video>
             </div>
               

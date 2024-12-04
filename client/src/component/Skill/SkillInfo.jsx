@@ -79,7 +79,7 @@ const SkillInfo = ({skill}) => {
                         </div>
 
                         <div style={{flexBasis:'33%', display: 'flex'}}>
-                            <img src='http://localhost:3001/assets/commons/cooldown.png' alt='CD' 
+                            <img src='https://dota2server.vercel.app/assets/commons/cooldown.png' alt='CD' 
                                 style={{
                                     height: '72%', 
                                     width:'10%', 

@@ -16,7 +16,7 @@ const UserSearch = ({swither}) => {
 
     const handleSearch = async () => {
         const response = await fetch(
-            `http://localhost:3001/auth/searchuser/${searchValue}`,
+            `https://dota2server.vercel.app/auth/searchuser/${searchValue}`,
             {
                 method: 'GET',
             }

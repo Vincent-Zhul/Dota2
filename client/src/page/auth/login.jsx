@@ -37,7 +37,7 @@ const LoginPage = ({switcher}) => {
 
     const HandleLogin = async (values, resetForm) => {
         const response = await fetch(
-            'http://localhost:3001/auth/login', 
+            'https://dota2server.vercel.app/auth/login', 
             {
                 method: "POST",
                 headers: {
@@ -65,7 +65,7 @@ const LoginPage = ({switcher}) => {
     
     const HandleRegister = async (values, resetForm) => {
         const response = await fetch(
-            'http://localhost:3001/auth/register', 
+            'https://dota2server.vercel.app/auth/register', 
             {
                 method: "POST",
                 headers: {

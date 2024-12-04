@@ -20,7 +20,7 @@ const Friend = ({friend, height='10%'}) => {
             <div style={{
                 height: '80%',
             }}>
-                <img src={`http://localhost:3001/assets/user/${friend.UserIcon}`} style={{height:'100%'}}/>
+                <img src={`https://dota2server.vercel.app/assets/user/${friend.UserIcon}`} style={{height:'100%'}}/>
             </div>
             <div style={{
                 marginLeft: '2%',

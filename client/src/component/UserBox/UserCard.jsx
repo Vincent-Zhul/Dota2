@@ -18,7 +18,7 @@ const UserCard = () => {
                         alignItems: 'center',
                 }}>
                     <Box key={user ? user.UserID : 'default'} style={{
-                        background: user === null ? 'url(http://localhost:3001/assets/commons/user_icon.jpg)': `url(http://localhost:3001/assets/user/${user.UserIcon})`,
+                        background: user === null ? 'url(https://dota2server.vercel.app/assets/commons/user_icon.jpg)': `url(https://dota2server.vercel.app/assets/user/${user.UserIcon})`,
                         backgroundSize: 'cover',
                         width: '80%',
                         height: '80%',
@@ -75,7 +75,7 @@ const UserCard = () => {
                         minWidth: '20%',
                         background: 'radial-gradient(circle at center, gold, rgba(0, 0, 0, 0) 50%)',
                 }}>
-                    <img src='http://localhost:3001/assets/rank/SeasonalRank0-0.webp' width='100%'/>
+                    <img src='https://dota2server.vercel.app/assets/rank/SeasonalRank0-0.webp' width='100%'/>
                 </Box>
             </div>
 

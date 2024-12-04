@@ -81,7 +81,7 @@ const SkillDataImportPage = () => {
 
     const GetHeroSkills = async () => {
         const serverResponse = await fetch(
-            `http://localhost:3001/skill/getheroskill/${heroName}`,
+            `https://dota2server.vercel.app/skill/getheroskill/${heroName}`,
             {
                 method: "GET",
             }
@@ -115,7 +115,7 @@ const SkillDataImportPage = () => {
 
 
         const serverResponse = await fetch(
-            "http://localhost:3001/skill/insert",
+            "https://dota2server.vercel.app/skill/insert",
             {
                 method: "POST",
                 body: formData
@@ -626,10 +626,10 @@ const SkillDataImportPage = () => {
                                         <MenuItem value={0}>无
                                         </MenuItem>
                                         <MenuItem value={1}>阿哈利姆神杖技能
-                                            <img src='http://localhost:3001/assets/commons/Aghanim_Scepter.webp' style={{width: '100%', borderRadius:'50%'}}/>
+                                            <img src='https://dota2server.vercel.app/assets/commons/Aghanim_Scepter.webp' style={{width: '100%', borderRadius:'50%'}}/>
                                         </MenuItem>
                                         <MenuItem value={2}>阿哈利姆魔晶技能
-                                            <img src='http://localhost:3001/assets/commons/Aghanim_Shard.webp' style={{width: '100%', borderRadius:'50%'}}/>
+                                            <img src='https://dota2server.vercel.app/assets/commons/Aghanim_Shard.webp' style={{width: '100%', borderRadius:'50%'}}/>
                                         </MenuItem>
                                     </CustomSelect>
                                 </FormControl>}
@@ -716,7 +716,7 @@ const SkillDataImportPage = () => {
                                     <div className='SkillImportPageSkillImage' onClick={() => {setOpenInputPanel(!openInputPanel); setInputPanelContent('SkillImage1')}}>
                                         {values.imagePreviewUrl ? (  
                                             <img src={values.imagePreviewUrl} alt="Selected Image" style={{ maxWidth: '100%', maxHeight: '200px' }} />  
-                                        ) : (<img src={`http://localhost:3001/assets/skills/${values.SkillImage1}`} style={{height:'100%'}}/>)}
+                                        ) : (<img src={`https://dota2server.vercel.app/assets/skills/${values.SkillImage1}`} style={{height:'100%'}}/>)}
                                     </div>
 
                                     <div className='SkillImportPageSequence' onClick={() => {setOpenInputPanel(!openInputPanel); setInputPanelContent('Sequence')}}>
@@ -728,7 +728,7 @@ const SkillDataImportPage = () => {
                                     </div>
 
                                     {values.SkillType === 0 && <div className='SkillImportPageAghanim' onClick={() => {setOpenInputPanel(!openInputPanel); setInputPanelContent('Aghanim')}}>
-                                        <img src='http://localhost:3001/assets/commons/Aghanim_Scepter.webp' style={{width: '100%', borderRadius:'50%'}}></img>
+                                        <img src='https://dota2server.vercel.app/assets/commons/Aghanim_Scepter.webp' style={{width: '100%', borderRadius:'50%'}}></img>
                                     </div>}
                                     技能视频，暂无。技能视频，暂无。技能视频，暂无
                                 </div>
@@ -788,7 +788,7 @@ const SkillDataImportPage = () => {
 
                                 <div className='SkillImportPageCostCD' >
                                     <div style={{flexBasis:'33%', display: 'flex'}} onClick={() => {setOpenInputPanel(!openInputPanel); setInputPanelContent('CD')}}>
-                                        <img src='http://localhost:3001/assets/commons/cooldown.png' alt='CD' 
+                                        <img src='https://dota2server.vercel.app/assets/commons/cooldown.png' alt='CD' 
                                             style={{
                                                 height: '72%', 
                                                 width:'10%', 

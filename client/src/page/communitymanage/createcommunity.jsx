@@ -57,7 +57,7 @@ const CreateCommunity = () => {
         }
 
         const serverResponse = await fetch(
-            "http://localhost:3001/community/create",
+            "https://dota2server.vercel.app/community/create",
             {
                 method: "POST",
                 body: formData,
@@ -80,7 +80,7 @@ const CreateCommunity = () => {
 
     const SearchAdmin = async () => {
         const serverResponse = await fetch(
-            `http://localhost:3001/auth/getUserByLike/${searchContent}`,
+            `https://dota2server.vercel.app/auth/getUserByLike/${searchContent}`,
             {
                 method: "GET",
             }

@@ -7,7 +7,7 @@ const ItemInfo = ({item, size='680%', test=false }) => {
 
     const GetItemSkill = async () => {
         const serverResponse = await fetch(
-            `http://localhost:3001/skill/getheroskill/${item.ItemName}`,
+            `https://dota2server.vercel.app/skill/getheroskill/${item.ItemName}`,
             {
                 method: 'GET',
             }
@@ -32,7 +32,7 @@ const ItemInfo = ({item, size='680%', test=false }) => {
         }}>
             <div className='ItemInfoTitle'>
                 <div className='ItemInfoImage'>
-                    <img src={`http://localhost:3001/assets/items/${item.ItemName}_icon.webp`}/>
+                    <img src={`https://dota2server.vercel.app/assets/items/${item.ItemName}_icon.webp`}/>
                 </div>
                 <div className='ItemInfoNameAndPrice'>
                     <div className='ItemInfoName'>
@@ -114,7 +114,7 @@ const ItemInfo = ({item, size='680%', test=false }) => {
                                             {skill.Cost !== '0' && skill.Cost}
                                         </div>
                                         <div className='ItemInfoPositiveSkillCD'>
-                                            <img src='http://localhost:3001/assets/commons/cooldown.png' alt='CD' 
+                                            <img src='https://dota2server.vercel.app/assets/commons/cooldown.png' alt='CD' 
                                                 style={{
                                                     width:'21%', 
                                                     marginRight:'5%',

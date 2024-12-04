@@ -5,7 +5,7 @@
     background:linear-gradient(to right, rgb(52, 52, 52) , rgb(25, 25, 25) );
     display: flex;
     flex-direction: column;
-    background: url('http://localhost:3001/assets/commons/LoginBK.jpg');
+    background: url('https://dota2server.vercel.app/assets/commons/LoginBK.jpg');
     background-size: cover;
 }
 

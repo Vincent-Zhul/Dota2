@@ -5,7 +5,7 @@ const HeroTypeCell = ({heroList, type, cnType, importing=false, skill=false}) =>
     return (
         <div style={{height: '100%'}}>
             <div className="HeroTypeCellTitle">
-                <img src={`http://localhost:3001/assets/commons/${type}_attribute_symbol.webp`} alt={`${type} heros`} style={{
+                <img src={`https://dota2server.vercel.app/assets/commons/${type}_attribute_symbol.webp`} alt={`${type} heros`} style={{
                     height: '70%',
                     marginRight: '1%',
                 }}/>

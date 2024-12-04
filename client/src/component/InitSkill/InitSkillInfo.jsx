@@ -14,8 +14,8 @@ const InitSkillInfo = ({ skill }) => {
                     background: 'radial-gradient(circle at 25% center, rgba(161, 161, 161, 0.75), rgba(50, 50, 50, 0.75))'
                 }}>
                     <div className="InitSkillTitleImage">
-                        {skill.SkillImage1 ? <img src={`http://localhost:3001/assets/skills/${skill.SkillImage1}`} style={{width:'100%'}}/> : 
-                        <img src={`http://localhost:3001/assets/commons/innate_icon.png`} style={{width:'100%'}}/>}
+                        {skill.SkillImage1 ? <img src={`https://dota2server.vercel.app/assets/skills/${skill.SkillImage1}`} style={{width:'100%'}}/> : 
+                        <img src={`https://dota2server.vercel.app/assets/commons/innate_icon.png`} style={{width:'100%'}}/>}
                     </div>
                     <div style={{marginLeft: '2%', flexBasis:'25%', textAlign:'center'}}>
                         {skill.SkillCNName}
@@ -94,7 +94,7 @@ const InitSkillInfo = ({ skill }) => {
                         </div>}
 
                         {skill.Cost !== '0' && <div style={{flexBasis:'33%', display: 'flex'}}>
-                            <img src='http://localhost:3001/assets/commons/cooldown.png' alt='CD' 
+                            <img src='https://dota2server.vercel.app/assets/commons/cooldown.png' alt='CD' 
                                 style={{
                                     height: '72%', 
                                     width:'10%', 

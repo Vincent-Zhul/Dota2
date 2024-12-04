@@ -9,7 +9,7 @@ const CommunityCell = ({ community }) => {
         <div className='CommunityCellContent'>
             <div className="CommunityCellLeft">
                 <div className='CommunityIcon'>
-                    <img src={`http://localhost:3001/assets/commons/${community.CommunityIcon}`} alt={`${community.CommunityName}`}/>
+                    <img src={`https://dota2server.vercel.app/assets/commons/${community.CommunityIcon}`} alt={`${community.CommunityName}`}/>
                 </div>
                 <div className='CommunityName'>
                     {community.CommunityName}

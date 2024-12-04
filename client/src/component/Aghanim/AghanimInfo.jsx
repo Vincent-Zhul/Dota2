@@ -17,7 +17,7 @@ const AghanimInfo = ({aghanim}) => {
                 {aghanim.AffectSkill1 && aghanim.IsShard1 === 0 &&
                 <div className='AghanimDisplay'>
                     <div className='AghanimImage'>
-                        {aghanim.AffectSkill1 !== '先天技能' && <img src={`http://localhost:3001/assets/skills/${aghanim.AffectSkill1.split(' ')[0]}_icon.webp`}/>}
+                        {aghanim.AffectSkill1 !== '先天技能' && <img src={`https://dota2server.vercel.app/assets/skills/${aghanim.AffectSkill1.split(' ')[0]}_icon.webp`}/>}
                     </div>
                      
                     <div className='AghanimDescription'>
@@ -39,7 +39,7 @@ const AghanimInfo = ({aghanim}) => {
                 {aghanim.AffectSkill2 && aghanim.IsShard2 === 0 &&
                 <div className='AghanimDisplay'>
                     <div className='AghanimImage'>
-                        {aghanim.AffectSkill2 !== '先天技能' && <img src={`http://localhost:3001/assets/skills/${aghanim.AffectSkill2.split(' ')[0]}_icon.webp`}/>}
+                        {aghanim.AffectSkill2 !== '先天技能' && <img src={`https://dota2server.vercel.app/assets/skills/${aghanim.AffectSkill2.split(' ')[0]}_icon.webp`}/>}
                     </div>
                      
                     <div className='AghanimDescription'>
@@ -61,7 +61,7 @@ const AghanimInfo = ({aghanim}) => {
                 {aghanim.AffectSkill3 && aghanim.IsShard3 === 0 &&
                 <div className='AghanimDisplay'>
                     <div className='AghanimImage'>
-                        {aghanim.AffectSkill3 !== '先天技能' && <img src={`http://localhost:3001/assets/skills/${aghanim.AffectSkill3.split(' ')[0]}_icon.webp`}/>}
+                        {aghanim.AffectSkill3 !== '先天技能' && <img src={`https://dota2server.vercel.app/assets/skills/${aghanim.AffectSkill3.split(' ')[0]}_icon.webp`}/>}
                     </div>
                      
                     <div className='AghanimDescription'>
@@ -83,7 +83,7 @@ const AghanimInfo = ({aghanim}) => {
                 {aghanim.AffectSkill4 && aghanim.IsShard4 === 0 &&
                 <div className='AghanimDisplay'>
                     <div className='AghanimImage'>
-                        {aghanim.AffectSkill4 !== '先天技能' && <img src={`http://localhost:3001/assets/skills/${aghanim.AffectSkill4.split(' ')[0]}_icon.webp`}/>}
+                        {aghanim.AffectSkill4 !== '先天技能' && <img src={`https://dota2server.vercel.app/assets/skills/${aghanim.AffectSkill4.split(' ')[0]}_icon.webp`}/>}
                     </div>
                      
                     <div className='AghanimDescription'>
@@ -110,7 +110,7 @@ const AghanimInfo = ({aghanim}) => {
                 {aghanim.AffectSkill1 && aghanim.IsShard1 === 1 &&
                 <div className='AghanimDisplay'>
                     <div className='AghanimImage'>
-                        {aghanim.AffectSkill1 !== '先天技能' && <img src={`http://localhost:3001/assets/skills/${aghanim.AffectSkill1.split(' ')[0]}_icon.webp`}/>}
+                        {aghanim.AffectSkill1 !== '先天技能' && <img src={`https://dota2server.vercel.app/assets/skills/${aghanim.AffectSkill1.split(' ')[0]}_icon.webp`}/>}
                     </div>
                      
                     <div className='AghanimDescription'>
@@ -132,7 +132,7 @@ const AghanimInfo = ({aghanim}) => {
                 {aghanim.AffectSkill2 && aghanim.IsShard2 === 1 &&
                 <div className='AghanimDisplay'>
                     <div className='AghanimImage'>
-                        {aghanim.AffectSkill2 !== '先天技能' && <img src={`http://localhost:3001/assets/skills/${aghanim.AffectSkill2.split(' ')[0]}_icon.webp`}/>}
+                        {aghanim.AffectSkill2 !== '先天技能' && <img src={`https://dota2server.vercel.app/assets/skills/${aghanim.AffectSkill2.split(' ')[0]}_icon.webp`}/>}
                     </div>
                      
                     <div className='AghanimDescription'>
@@ -154,7 +154,7 @@ const AghanimInfo = ({aghanim}) => {
                 {aghanim.AffectSkill3 && aghanim.IsShard3 === 1 &&
                 <div className='AghanimDisplay'>
                     <div className='AghanimImage'>
-                        {aghanim.AffectSkill3 !== '先天技能' && <img src={`http://localhost:3001/assets/skills/${aghanim.AffectSkill3.split(' ')[0]}_icon.webp`}/>}
+                        {aghanim.AffectSkill3 !== '先天技能' && <img src={`https://dota2server.vercel.app/assets/skills/${aghanim.AffectSkill3.split(' ')[0]}_icon.webp`}/>}
                     </div>
                      
                     <div className='AghanimDescription'>
@@ -176,7 +176,7 @@ const AghanimInfo = ({aghanim}) => {
                 {aghanim.AffectSkill4 && aghanim.IsShard4 === 1 &&
                 <div className='AghanimDisplay'>
                     <div className='AghanimImage'>
-                        {aghanim.AffectSkill4 !== '先天技能' && <img src={`http://localhost:3001/assets/skills/${aghanim.AffectSkill4.split(' ')[0]}_icon.webp`}/>}
+                        {aghanim.AffectSkill4 !== '先天技能' && <img src={`https://dota2server.vercel.app/assets/skills/${aghanim.AffectSkill4.split(' ')[0]}_icon.webp`}/>}
                     </div>
                      
                     <div className='AghanimDescription'>

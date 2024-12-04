@@ -102,7 +102,7 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    background-image: url('http://localhost:3001/assets/commons/ripple_texture.png');
+    background-image: url('https://dota2server.vercel.app/assets/commons/ripple_texture.png');
     background-size: cover;
     filter: invert(50%);
 }

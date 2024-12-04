@@ -7,7 +7,7 @@ const Floor = ({postId, commentId=0, text, date, authorId}) => {
 
     const GetPostAuthor = async() => {
         const response = await fetch(
-            `http://localhost:3001/auth/getUserById/${authorId}`,
+            `https://dota2server.vercel.app/auth/getUserById/${authorId}`,
             {
                 method: 'GET'
             }
@@ -22,7 +22,7 @@ const Floor = ({postId, commentId=0, text, date, authorId}) => {
 
     const GetPostImages = async() => {
         const response = await fetch(
-            `http://localhost:3001/post/getPostImages/${postId}`,
+            `https://dota2server.vercel.app/post/getPostImages/${postId}`,
             {
                 method: 'GET'
             }
@@ -37,7 +37,7 @@ const Floor = ({postId, commentId=0, text, date, authorId}) => {
 
     const GetCommentImages = async() => {
         const response = await fetch(
-            `http://localhost:3001/post/getCommentImages/${postId}/${commentId}`,
+            `https://dota2server.vercel.app/post/getCommentImages/${postId}/${commentId}`,
             {
                 method: 'GET'
             }
@@ -83,7 +83,7 @@ const Floor = ({postId, commentId=0, text, date, authorId}) => {
             <div>
                 {images && images.map((item, index) => 
                     <div key={index} style={{display: 'flex', justifyContent: 'start'}}>
-                        <img src={`http://localhost:3001/assets/posts/${item.FileName}`}
+                        <img src={`https://dota2server.vercel.app/assets/posts/${item.FileName}`}
                             style={{
                                 margin: '1.5% 5%',
                                 maxHeight: '25vh',

@@ -194,8 +194,8 @@ const AllHeroPage = () => {
                                     display: 'flex',
                                     height: '100%',
                                 }}>
-                                    <img src='http://localhost:3001/assets/commons/Filter_carry_icon.webp' style={{filter: 'invert(70%)'}}/>
-                                    <img src='http://localhost:3001/assets/commons/Filter_support_icon.webp' style={{filter: 'invert(70%)'}}/>
+                                    <img src='https://dota2server.vercel.app/assets/commons/Filter_carry_icon.webp' style={{filter: 'invert(70%)'}}/>
+                                    <img src='https://dota2server.vercel.app/assets/commons/Filter_support_icon.webp' style={{filter: 'invert(70%)'}}/>
                                 </div>
                             </div>
 
@@ -213,9 +213,9 @@ const AllHeroPage = () => {
                                     display: 'flex',
                                     height: '100%',
                                 }}>
-                                    <img src='http://localhost:3001/assets/commons/Filter_complexity_icon.webp' style={{filter: 'invert(70%)'}}/>
-                                    <img src='http://localhost:3001/assets/commons/Filter_complexity_icon.webp' style={{filter: 'invert(70%)'}}/>
-                                    <img src='http://localhost:3001/assets/commons/Filter_complexity_icon.webp' style={{filter: 'invert(70%)'}}/>
+                                    <img src='https://dota2server.vercel.app/assets/commons/Filter_complexity_icon.webp' style={{filter: 'invert(70%)'}}/>
+                                    <img src='https://dota2server.vercel.app/assets/commons/Filter_complexity_icon.webp' style={{filter: 'invert(70%)'}}/>
+                                    <img src='https://dota2server.vercel.app/assets/commons/Filter_complexity_icon.webp' style={{filter: 'invert(70%)'}}/>
                                 </div>
                             </div>
 
@@ -233,12 +233,12 @@ const AllHeroPage = () => {
                                     display: 'flex',
                                     height: '100%'
                                 }}>
-                                    <img src='http://localhost:3001/assets/commons/Filter_disabler_icon.webp' style={{filter: 'invert(70%)'}}/>
-                                    <img src='http://localhost:3001/assets/commons/Filter_durable_icon.webp' style={{filter: 'invert(70%)'}}/>
-                                    <img src='http://localhost:3001/assets/commons/Filter_escape_icon.webp' style={{filter: 'invert(70%)'}}/>
-                                    <img src='http://localhost:3001/assets/commons/Filter_initiator_icon.webp' style={{filter: 'invert(70%)'}}/>
-                                    <img src='http://localhost:3001/assets/commons/Filter_nuker_icon.webp' style={{filter: 'invert(70%)'}}/>
-                                    <img src='http://localhost:3001/assets/commons/Filter_pusher_icon.webp' style={{filter: 'invert(70%)'}}/>
+                                    <img src='https://dota2server.vercel.app/assets/commons/Filter_disabler_icon.webp' style={{filter: 'invert(70%)'}}/>
+                                    <img src='https://dota2server.vercel.app/assets/commons/Filter_durable_icon.webp' style={{filter: 'invert(70%)'}}/>
+                                    <img src='https://dota2server.vercel.app/assets/commons/Filter_escape_icon.webp' style={{filter: 'invert(70%)'}}/>
+                                    <img src='https://dota2server.vercel.app/assets/commons/Filter_initiator_icon.webp' style={{filter: 'invert(70%)'}}/>
+                                    <img src='https://dota2server.vercel.app/assets/commons/Filter_nuker_icon.webp' style={{filter: 'invert(70%)'}}/>
+                                    <img src='https://dota2server.vercel.app/assets/commons/Filter_pusher_icon.webp' style={{filter: 'invert(70%)'}}/>
                                 </div>
                             </div>
                         </div>

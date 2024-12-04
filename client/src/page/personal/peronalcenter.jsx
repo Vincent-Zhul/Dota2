@@ -16,7 +16,7 @@ const PersonalCenter = () => {
 
     const handleSearch = async () => {
         const response = await fetch(
-            `http://localhost:3001/auth/searchuser/${userName}`,
+            `https://dota2server.vercel.app/auth/searchuser/${userName}`,
             {
                 method: 'GET',
             }
@@ -31,7 +31,7 @@ const PersonalCenter = () => {
 
     const SetFriendShip = async () => {
         const response = await fetch(
-            `http://localhost:3001/auth/setfriendship/${user.UserName}/${otherUser.UserName}`,
+            `https://dota2server.vercel.app/auth/setfriendship/${user.UserName}/${otherUser.UserName}`,
             {
                 method: 'POST',
                 headers: {
@@ -58,7 +58,7 @@ const PersonalCenter = () => {
 
     const ConfirmFriendShip = async () => {
         const response = await fetch(
-            `http://localhost:3001/auth/confirmfriendship/${user.UserName}/${otherUser.UserName}`,
+            `https://dota2server.vercel.app/auth/confirmfriendship/${user.UserName}/${otherUser.UserName}`,
             {
                 method: 'POST',
                 headers: {
@@ -85,7 +85,7 @@ const PersonalCenter = () => {
 
     const DeleteFriendShip = async () => {
         const response = await fetch(
-            `http://localhost:3001/auth/deletefriendship`,
+            `https://dota2server.vercel.app/auth/deletefriendship`,
             {
                 method: 'DELETE',
                 headers: {
@@ -112,7 +112,7 @@ const PersonalCenter = () => {
 
     const getFriendShipState = async () => {
         const response = await fetch(
-            `http://localhost:3001/auth/isfriend/${user.UserName}/${otherUser.UserName}`,
+            `https://dota2server.vercel.app/auth/isfriend/${user.UserName}/${otherUser.UserName}`,
             {
                 method: 'GET',
                 headers: {
@@ -201,13 +201,13 @@ const PersonalCenter = () => {
             <div className='PersonalCenterData'>
                 <div className='PersonalCenterFirstRow'>
                     <div className='PersonalCenterUserIcon'>
-                        <img src='http://localhost:3001/assets/commons/user_icon.jpg' alt='usericon'/>
+                        <img src='https://dota2server.vercel.app/assets/commons/user_icon.jpg' alt='usericon'/>
                     </div>
 
                     {!otherUser && (user ? <div className='PersonalCenterBasicInfo'>
                         <div className='PersonalCenterCommunityLevel'>
                             <div className='PersonalCenterCommunityLevelIcon'>
-                                <img src='http://localhost:3001/assets/rank/SeasonalRank0-0.webp' alt='communitylevel'/>
+                                <img src='https://dota2server.vercel.app/assets/rank/SeasonalRank0-0.webp' alt='communitylevel'/>
                             </div>
                         </div>
 
@@ -249,7 +249,7 @@ const PersonalCenter = () => {
                     {otherUser && <div className='PersonalCenterBasicInfo'>
                         <div className='PersonalCenterCommunityLevel'>
                             <div className='PersonalCenterCommunityLevelIcon'>
-                                <img src='http://localhost:3001/assets/rank/SeasonalRank0-0.webp' alt='communitylevel'/>
+                                <img src='https://dota2server.vercel.app/assets/rank/SeasonalRank0-0.webp' alt='communitylevel'/>
                             </div>
                         </div>
 

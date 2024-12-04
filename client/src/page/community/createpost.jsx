@@ -52,7 +52,7 @@ const CreatePost = ({CommunityId, refresh}) => {
         }
 
         const serverResponse = await fetch(
-            "http://localhost:3001/post/create",
+            "https://dota2server.vercel.app/post/create",
             {
                 method: "POST",
                 body: formData,

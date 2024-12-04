@@ -14,7 +14,7 @@ const ExistedHero = () => {
 
     const GetExistedHero = async() => {
         const serverResponse = await fetch(
-            'http://localhost:3001/hero/getallheroname',
+            'https://dota2server.vercel.app/hero/getallheroname',
             {
                 method: 'GET'
             }

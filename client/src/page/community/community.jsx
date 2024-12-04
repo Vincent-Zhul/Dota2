@@ -10,7 +10,7 @@ const CommunityMianPage = () => {
 
     const GetVisableCommunities = async () => {
         const response = await fetch(
-            'http://localhost:3001/community/visableCommunities',
+            'https://dota2server.vercel.app/community/visableCommunities',
             {
                 method: 'GET'
             }

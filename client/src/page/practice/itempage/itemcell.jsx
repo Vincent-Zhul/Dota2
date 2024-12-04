@@ -10,7 +10,7 @@ const ItemCell = ({ name, cnName}) => {
     return (
         <Box>
             <div style={{width:'100%', height:'100%'}}>
-                <img src={`http://localhost:3001/assets/items/${name}_icon.webp`} style={{width:'90%'}}/>
+                <img src={`https://dota2server.vercel.app/assets/items/${name}_icon.webp`} style={{width:'90%'}}/>
             </div>
         </Box>
     );

@@ -113,7 +113,7 @@ const ExistedItem = () => {
 
     const GetExistedItem = async() => {
         const serverResponse = await fetch(
-            'http://localhost:3001/item/allitems',
+            'https://dota2server.vercel.app/item/allitems',
             {
                 method: 'GET'
             }
@@ -130,7 +130,7 @@ const ExistedItem = () => {
         console.log('values :',values);
 
         const serverResponse = await fetch(
-            "http://localhost:3001/item/insert",
+            "https://dota2server.vercel.app/item/insert",
             {
                 method: "POST",
                 headers: {
@@ -882,7 +882,7 @@ const ExistedItem = () => {
                             <div className='ExistedItemPart4Display'>
                                 <div className='ItemInfoTitle'>
                                     <div className='ItemInfoTitleImage'>
-                                        <img src='http://localhost:3001/assets/items/Shivas_Guard_icon.webp' style={{width: '100%', border:'1px solid black'}}/>
+                                        <img src='https://dota2server.vercel.app/assets/items/Shivas_Guard_icon.webp' style={{width: '100%', border:'1px solid black'}}/>
                                     </div>
                                     <div className='ItemInfoTitleName' onClick={() => {setOpenInputPanel(!openInputPanel); setInputPanelContent('ItemName')}}>
                                         <div className='ItemInfoTitleCNName'>

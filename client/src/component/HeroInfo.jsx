@@ -47,16 +47,16 @@ const HeroInfo = ({hero}) => {
 
     const GetAttributeIcon = () => {
         if(hero.HeroType === 0){
-            return 'http://localhost:3001/assets/commons/Strength_attribute_symbol.webp'
+            return 'https://dota2server.vercel.app/assets/commons/Strength_attribute_symbol.webp'
         }
         else if(hero.HeroType === 1){
-            return 'http://localhost:3001/assets/commons/Agility_attribute_symbol.webp'
+            return 'https://dota2server.vercel.app/assets/commons/Agility_attribute_symbol.webp'
         }
         else if(hero.HeroType === 2){
-            return 'http://localhost:3001/assets/commons/Intelligence_attribute_symbol.webp'
+            return 'https://dota2server.vercel.app/assets/commons/Intelligence_attribute_symbol.webp'
         }
         else if(hero.HeroType === 3){
-            return 'http://localhost:3001/assets/commons/Universal_attribute_symbol.webp'
+            return 'https://dota2server.vercel.app/assets/commons/Universal_attribute_symbol.webp'
         }
     }
 
@@ -112,7 +112,7 @@ const HeroInfo = ({hero}) => {
                         margin: '5px 0px',
                         position: 'relative'
                     }}>
-                        <Image width='220px' height='124px' src={`http://localhost:3001/assets/heros/${hero.HeroName}_icon.webp`}/>
+                        <Image width='220px' height='124px' src={`https://dota2server.vercel.app/assets/heros/${hero.HeroName}_icon.webp`}/>
                         <Box 
                             sx={{
                                 width:'40px', 
@@ -269,7 +269,7 @@ const HeroInfo = ({hero}) => {
                             textShadow: '1px 1px 2px #000',
                             color: 'white',
                         }}>
-                            <Image height='12px' src='http://localhost:3001/assets/commons/Strength_attribute_symbol.webp'/>
+                            <Image height='12px' src='https://dota2server.vercel.app/assets/commons/Strength_attribute_symbol.webp'/>
                             力量
                         </div>
                         <div style={{
@@ -307,7 +307,7 @@ const HeroInfo = ({hero}) => {
                             textShadow: '1px 1px 2px #000',
                             color: 'white'
                         }}>
-                            <Image height='12px' src='http://localhost:3001/assets/commons/Agility_attribute_symbol.webp'/>
+                            <Image height='12px' src='https://dota2server.vercel.app/assets/commons/Agility_attribute_symbol.webp'/>
                             敏捷
                         </div>
                         <div style={{
@@ -347,7 +347,7 @@ const HeroInfo = ({hero}) => {
                             justifyContent:'center'
                         }}>
                             
-                            <Image height='12px' src='http://localhost:3001/assets/commons/Intelligence_attribute_symbol.webp'/>
+                            <Image height='12px' src='https://dota2server.vercel.app/assets/commons/Intelligence_attribute_symbol.webp'/>
                             智力
                         </div>
                         <div style={{
@@ -415,7 +415,7 @@ const HeroInfo = ({hero}) => {
                             width:'20%',
                             color: 'black'
                         }}>
-                            <Image height='12px' src='http://localhost:3001/assets/commons/Magic_Resistance_icon.webp'/>
+                            <Image height='12px' src='https://dota2server.vercel.app/assets/commons/Magic_Resistance_icon.webp'/>
                             魔抗
                         </div>
                         <div style={{
@@ -442,7 +442,7 @@ const HeroInfo = ({hero}) => {
                             color: 'black'
                         }}>
                             
-                            <Image height='12px' src='http://localhost:3001/assets/commons/Movement_speed_icon.webp'/>
+                            <Image height='12px' src='https://dota2server.vercel.app/assets/commons/Movement_speed_icon.webp'/>
                             移速
                         </div>
                         <div style={{
@@ -465,7 +465,7 @@ const HeroInfo = ({hero}) => {
                             color: 'black'
                         }}>
                             
-                            <Image height='12px' src='http://localhost:3001/assets/commons/Turn_rate_icon.webp'/>
+                            <Image height='12px' src='https://dota2server.vercel.app/assets/commons/Turn_rate_icon.webp'/>
                             转身速率
                         </div>
                         <div style={{
@@ -554,7 +554,7 @@ const HeroInfo = ({hero}) => {
                             width:'35%',
                             color: 'black'
                         }}>
-                            {!hero.AttackType ? <Image height='12px' src='http://localhost:3001/assets/commons/Melee_icon.webp'/> : <Image height='12px' src='http://localhost:3001/assets/commons/Ranged_icon.webp'/>}
+                            {!hero.AttackType ? <Image height='12px' src='https://dota2server.vercel.app/assets/commons/Melee_icon.webp'/> : <Image height='12px' src='https://dota2server.vercel.app/assets/commons/Ranged_icon.webp'/>}
                             攻击距离
                         </div>
                         <div style={{
@@ -605,8 +605,8 @@ const HeroInfo = ({hero}) => {
                             width:'65%',
                             color: 'black'
                         }}>
-                            {Math.floor(hero.DayVision)}<Image height='12px' src='http://localhost:3001/assets/commons/Daytime_icon.webp'/>/
-                            {Math.floor(hero.NightVision)}<Image height='12px' src='http://localhost:3001/assets/commons/Nighttime_icon.webp'/>
+                            {Math.floor(hero.DayVision)}<Image height='12px' src='https://dota2server.vercel.app/assets/commons/Daytime_icon.webp'/>/
+                            {Math.floor(hero.NightVision)}<Image height='12px' src='https://dota2server.vercel.app/assets/commons/Nighttime_icon.webp'/>
                         </div>
                     </div>
                 </Box>

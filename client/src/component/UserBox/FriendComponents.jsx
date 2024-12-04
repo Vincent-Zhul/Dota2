@@ -27,7 +27,7 @@ const FriendComponent = () => {
 
     const GetFriendList = async () => {
         const response = await fetch(
-            `http://localhost:3001/auth/getfriendlist/${user.UserName}`,
+            `https://dota2server.vercel.app/auth/getfriendlist/${user.UserName}`,
             {
                 method: 'GET',
                 headers: {
@@ -86,7 +86,7 @@ const FriendComponent = () => {
                                 cursor: 'pointer',
                             }
                     }}>
-                        <img src='http://localhost:3001/assets/commons/Search_icon.png' height='70%'/>
+                        <img src='https://dota2server.vercel.app/assets/commons/Search_icon.png' height='70%'/>
                     </Box>
                 </div>
                 <Box

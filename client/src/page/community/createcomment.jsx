@@ -48,7 +48,7 @@ const CreateComment = ({postId, refresh}) => {
         }
 
         const serverResponse = await fetch(
-            "http://localhost:3001/post/createComment",
+            "https://dota2server.vercel.app/post/createComment",
             {
                 method: "POST",
                 body: formData,

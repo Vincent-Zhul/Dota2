@@ -13,7 +13,7 @@ const PostPage = () => {
 
     const GetPost = async() => {
         const response = await fetch(
-            `http://localhost:3001/post/getPostById/${postId}`,
+            `https://dota2server.vercel.app/post/getPostById/${postId}`,
             {
                 method: 'GET'
             }
@@ -28,7 +28,7 @@ const PostPage = () => {
 
     const GetComments = async() => {
         const response = await fetch(
-            `http://localhost:3001/post/getPostComments/${postId}`,
+            `https://dota2server.vercel.app/post/getPostComments/${postId}`,
             {
                 method: 'GET'
             }

@@ -19,7 +19,7 @@ const ExistedSkill = () => {
 
     const GetExistedSkill = async() => {
         const serverResponse = await fetch(
-            'http://localhost:3001/skill/allskill',
+            'https://dota2server.vercel.app/skill/allskill',
             {
                 method: 'GET'
             }
@@ -34,7 +34,7 @@ const ExistedSkill = () => {
 
     const GetItemSkills = async() => {
         const serverResponse = await fetch(
-            'http://localhost:3001/skill/allitemskill',
+            'https://dota2server.vercel.app/skill/allitemskill',
             {
                 method: 'GET'
             }

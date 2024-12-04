@@ -14,7 +14,7 @@ const CommunityPage = () => {
 
     const GetCommunityById = async() => {
         const response = await fetch(
-            `http://localhost:3001/community/communityById/${communityId}`,
+            `https://dota2server.vercel.app/community/communityById/${communityId}`,
             {
                 method: 'GET'
             }
@@ -29,7 +29,7 @@ const CommunityPage = () => {
 
     const GetCommunityAdmin = async() => {
         const response = await fetch(
-            `http://localhost:3001/community/communityAdmin/${communityId}`,
+            `https://dota2server.vercel.app/community/communityAdmin/${communityId}`,
             {
                 method: 'GET'
             }
@@ -44,7 +44,7 @@ const CommunityPage = () => {
 
     const GetCommunityPost = async() => {
         const response = await fetch(
-            `http://localhost:3001/post/getPostsByCommunityId/${communityId}`,
+            `https://dota2server.vercel.app/post/getPostsByCommunityId/${communityId}`,
             {
                 method: 'GET'
             }
@@ -115,7 +115,7 @@ const CommunityPage = () => {
                 </div>
                 <div className='CommunityPageRightPart'>
                     <div className="CommunityPageRightPartCommunityIcon">
-                        {community && <img src={`http://localhost:3001/assets/commons/${community.CommunityIcon}`}
+                        {community && <img src={`https://dota2server.vercel.app/assets/commons/${community.CommunityIcon}`}
                             style={{
                                 height: '100%',
                                 objectFit: 'cover'

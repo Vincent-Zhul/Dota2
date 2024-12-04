@@ -30,7 +30,7 @@ const ItemPage = () => {
 
     const GetExistedItem = async() => {
         const serverResponse = await fetch(
-            'http://localhost:3001/item/allitems',
+            'https://dota2server.vercel.app/item/allitems',
             {
                 method: 'GET'
             }

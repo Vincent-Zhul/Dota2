@@ -80,7 +80,7 @@ const ChangeExistedInitTalent = ({Owner, InitTalent=null}) => {
         }
 
         const serverResponse = await fetch(
-            "http://localhost:3001/inittalent/insert",
+            "https://dota2server.vercel.app/inittalent/insert",
             {
                 method: "POST",
                 // headers: {"Content-Type" : "application/json"},
