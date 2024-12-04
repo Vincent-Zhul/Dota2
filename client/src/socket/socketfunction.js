@@ -2,7 +2,7 @@ import io from 'socket.io-client';
 
 export function SocketInitialize (connection){
     console.log('初始化socket');
-    connection = io('http://localhost:3001');
+    connection = io('https://dota2server.vercel.app');
     connection.on('connection', () => {
         console.log('连接成功');
     });
